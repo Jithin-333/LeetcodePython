@@ -5,3 +5,8 @@ class Solution(object):
             if mountain[i-1] < mountain[i] > mountain[i+1]:
                 out.append(i)
         return out
+
+
+mountain = [1,4,3,8,5]
+sol = Solution()
+print(sol.findPeaks(mountain))

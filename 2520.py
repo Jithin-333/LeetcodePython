@@ -7,3 +7,8 @@ class Solution(object):
             if num % i == 0:
                 sum += 1
         return sum
+
+
+sol = Solution()
+num = 121
+print(sol.countDigits(num))
